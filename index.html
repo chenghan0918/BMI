@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div style="margin-left:173px;margin-right:100px;padding-top: 20px;">
+                <img src="https://i.imgur.com/xq2yTC4.png" alt="">
+            </div>
+            <div style="margin-right:50px;">
+                <label for="height_value" class="height_label">身高 cm</label>
+                <input type="text" id="height_value" placeholder="請輸入身高" style="margin-bottom:10px;">
+                <label for="weight_value" class="weight_label">體重 kg</label>
+                <input type="text" id="weight_value" placeholder="請輸入體重" >
+            </div>
+            <div style="position: relative;width:250px;padding-top: 20px;">
+                <input type="button" id="result_button" value="看結果">
+                <p class="change_BMI">BMI</p>
+                <div class="change_small_button"></div>
+                <p class="change_range"></p>
+            </div>
+        </div>
+        <div class="content">
+            <h3>BMI紀錄</h3>
+            <ul class="result"></ul>
+        </div>
+        <div class="footer">
+            <img src="https://i.postimg.cc/5020FQB0/BMIC.png" alt="">
+        </div>
+    </div>
+    <script src='js/all.js'></script>
+</body>
+</html>
